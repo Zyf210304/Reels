@@ -9,8 +9,30 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        VStack (spacing: 20){
+            
+            Image(systemName: "pencil.tip.crop.circle.badge.minus")
+                .foregroundColor(.red)
+            
+            
+            Image(systemName: "pencil.tip.crop.circle.badge.minus")
+                .foregroundStyle(.red, .black)
+            
+            Image(systemName: "sunrise.fill")
+                .foregroundStyle(.red, .black)
+            
+            Image(systemName: "moon.zzz.fill")
+                .foregroundStyle(.red, .black, .orange)
+            
+            Image(systemName: "thermometer.sun.fill")
+                .foregroundStyle(.red, .yellow, .orange)
+            
+            Image(systemName: "filemenu.and.selection")
+                .foregroundStyle(.red, .yellow)
+        }
+        
+        
     }
 }
 
