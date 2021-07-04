@@ -16,6 +16,10 @@
 		02A2532A269196520005E42B /* Reel2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 02A25326269196520005E42B /* Reel2.mp4 */; };
 		02A2532B269196520005E42B /* Reel1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 02A25327269196520005E42B /* Reel1.mp4 */; };
 		02A2532E269196910005E42B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A2532D269196910005E42B /* Home.swift */; };
+		02A25331269198370005E42B /* MediaFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A25330269198370005E42B /* MediaFile.swift */; };
+		02A2533326919AA10005E42B /* ReelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A2533226919AA10005E42B /* ReelsView.swift */; };
+		02A253352691A9150005E42B /* Reel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A253342691A9150005E42B /* Reel.swift */; };
+		02A253372691AB930005E42B /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A253362691AB930005E42B /* CustomVideoPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		02A25326269196520005E42B /* Reel2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Reel2.mp4; sourceTree = "<group>"; };
 		02A25327269196520005E42B /* Reel1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Reel1.mp4; sourceTree = "<group>"; };
 		02A2532D269196910005E42B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		02A25330269198370005E42B /* MediaFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaFile.swift; sourceTree = "<group>"; };
+		02A2533226919AA10005E42B /* ReelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsView.swift; sourceTree = "<group>"; };
+		02A253342691A9150005E42B /* Reel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reel.swift; sourceTree = "<group>"; };
+		02A253362691AB930005E42B /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +73,7 @@
 		028477C3268E0F82007D7796 /* Reels */ = {
 			isa = PBXGroup;
 			children = (
+				02A2532F269198190005E42B /* Model */,
 				02A2532C2691966F0005E42B /* View */,
 				028477C4268E0F82007D7796 /* ReelsApp.swift */,
 				028477C6268E0F82007D7796 /* ContentView.swift */,
@@ -86,8 +95,19 @@
 			isa = PBXGroup;
 			children = (
 				02A2532D269196910005E42B /* Home.swift */,
+				02A2533226919AA10005E42B /* ReelsView.swift */,
+				02A253362691AB930005E42B /* CustomVideoPlayer.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		02A2532F269198190005E42B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02A25330269198370005E42B /* MediaFile.swift */,
+				02A253342691A9150005E42B /* Reel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,8 +184,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A253372691AB930005E42B /* CustomVideoPlayer.swift in Sources */,
 				028477C7268E0F82007D7796 /* ContentView.swift in Sources */,
+				02A253352691A9150005E42B /* Reel.swift in Sources */,
+				02A2533326919AA10005E42B /* ReelsView.swift in Sources */,
 				02A2532E269196910005E42B /* Home.swift in Sources */,
+				02A25331269198370005E42B /* MediaFile.swift in Sources */,
 				028477C5268E0F82007D7796 /* ReelsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
